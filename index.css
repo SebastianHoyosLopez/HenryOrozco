@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(102, 44, 44);
+}
+
+#header {
+    background: rgb(94, 12, 12);
+}
+
+#header img {
+    height: 50px;
+}
+
+#navbar {
+    font-family: "constantia", serif;
+}
+
+#main .container {
+    background-color: rgb(141, 136, 126);
+}
+
+#main .card-img-top {
+    margin: auto;
+}
+
+#main .card-body {
+    background: black;
+    opacity: 0.5;
+    margin: -15px 20px 12px; 
+    position: relative;
+    color: white;
+    height: 200px;
+}
+
+#carousel {
+    position: relative;
+    z-index: 1;
+}
+
+#carousel  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    z-index: 2;
+}
+
+#carousel col {
+    font-style: normal;
+}
+
+
+#carousel  .overlay .container,
+#carousel  .overlay .row {
+    height: 100%;
+}
+
+.redes-sociales {
+    height: 70px;
+    padding-top: 10px;
+    color: white;
+}
+
+.redes-sociales img {
+    height: 40px;
+}
+
+.enlace-redes strong {
+    font-size: x-large;
+}
